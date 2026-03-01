@@ -1,57 +1,27 @@
-# Hey, I'm MR
+# Michael Rawls Jr
 
-I build Python tools for code intelligence, observability, and AI orchestration.
+I build local-first Python tooling for code intelligence, observability, and AI-assisted engineering workflows.
 
-Everything I ship is local-first, vendor-neutral, and designed to work without
-network dependencies out of the box.
+## Public Repositories
 
----
+- [CodeGraphX](https://github.com/MRJR0101/CodeGraphX)
+  Deterministic code intelligence pipeline using tree-sitter + graph analysis for scan, impact analysis, and snapshot diffs.
 
-## What I'm Building
+- [Eye-Witness](https://github.com/MRJR0101/Eye-Witness)
+  Observability library that unifies `structlog`, `Sentry SDK`, and `OpenTelemetry` with practical defaults.
 
-### The Ecosystem
+- [AI-Inline-Learning](https://github.com/MRJR0101/AI-Inline-Learning)
+  Methodology for persistent AI-agent learning via inline code comments; validated with measurable error reduction.
 
-Three projects that work together to give you full visibility into your code --
-what it looks like, what it does at runtime, and how to coordinate AI agents
-around it.
+- [BinaryGuard](https://github.com/MRJR0101/BinaryGuard)
+  Security-oriented tooling focused on controlled execution and defensive workflows.
 
-**[CodeGraphX](https://github.com/MRJR0101/CodeGraphX)** --
-Deterministic code intelligence pipeline. Scans repositories with tree-sitter,
-extracts semantic facts (functions, calls, imports), builds a knowledge graph,
-and runs impact analysis, duplicate detection, and snapshot diffs. 14 CLI
-commands covering the full lifecycle from scan to query.
+## Project Direction
 
-**Eye-Witness** *(coming soon)* --
-Python observability library that unifies structured logging (structlog), error
-tracking (Sentry SDK), and distributed tracing (OpenTelemetry) into a single
-package. Every log line carries trace context. No DSN required -- works locally
-with zero config.
+- Ship practical developer tools that work well on local machines.
+- Keep implementations auditable, deterministic, and maintainable.
+- Integrate static code intelligence with runtime observability.
 
-**BlueWhale** *(in progress)* --
-Multi-AI orchestration system. Coordinates multiple AI agents for information
-gathering, analysis, and automated knowledge management.
+## Notes
 
-### How They Connect
-
-```
-CodeGraphX ---- static code structure ----> Knowledge Graph
-Eye-Witness --- runtime behavior ---------> Structured Logs + Traces
-BlueWhale ----- AI coordination ----------> Automated Workflows
-                                               |
-                          All observable, all traceable, all local-first
-```
-
----
-
-## Tech Stack
-
-`Python` `tree-sitter` `structlog` `OpenTelemetry` `Sentry SDK` `Neo4j`
-`typer` `rich` `pydantic` `uv`
-
----
-
-## Current Focus
-
-- Polishing CodeGraphX for wider use
-- Shipping Eye-Witness as a standalone package
-- Designing BlueWhale's multi-agent architecture
+- Some ecosystem components are private/in-progress while public repos are stabilized.
