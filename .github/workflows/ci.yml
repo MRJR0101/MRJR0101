@@ -21,20 +21,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Optional Python Checks
+      - name: Install And Test Python Project
         shell: bash
         run: |
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
-            python -m pip install --upgrade pip
-            pip install -r requirements.txt || true
+            pip install -r requirements.txt
           fi
           if [ -f pyproject.toml ]; then
-            python -m pip install --upgrade pip
-            pip install . || true
+            pip install .
           fi
           if [ -d tests ]; then
             python -m pip install pytest
-            pytest -q || true
+            pytest -q
           else
             echo "No tests directory; skipping pytest."
           fi
