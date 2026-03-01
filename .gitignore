@@ -17,3 +17,6 @@ dist/
 # IDE
 .vscode/
 .idea/
+
+# Internal working docs
+docs/_incoming_root/
