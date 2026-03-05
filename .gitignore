@@ -20,3 +20,9 @@ dist/
 
 # Internal working docs
 docs/_incoming_root/
+
+# Local QA/build artifacts (managed)
+*.egg-info/
+.pytest_tmp/
+.pytest_tmp_qwf/
+.ruff_cache/
