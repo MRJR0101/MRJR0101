@@ -26,3 +26,6 @@ docs/_incoming_root/
 .pytest_tmp/
 .pytest_tmp_qwf/
 .ruff_cache/
+
+# Internal ops/quality workflow files
+MISSINGMORE
