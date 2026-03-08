@@ -1,81 +1,112 @@
-# Michael Rawls Jr.
+# Hey, I'm MR
 
-Python developer and automation specialist. 24 years of operations -- restaurants,
-solar, field service -- turned into production code starting in 2024.
+Python developer with 24 years of technical experience building tools that solve
+real problems. I write local-first, zero-dependency automation -- CLI tools,
+security scanners, observability libraries, and code intelligence pipelines.
 
-PyToolbelt: 190+ utilities across 25 categories. 11 standalone production systems
-including a PE scanner, code intelligence pipeline, and observability library.
-Along the way I discovered AI Inline Learning -- a novel pattern for persistent
-AI agent collaboration that cuts repeated errors by 60%+ with zero infrastructure.
-
----
-
-## Public Repositories
-
-- [CodeGraphX](https://github.com/MRJR0101/CodeGraphX)
-  Deterministic code intelligence pipeline using tree-sitter + graph analysis for scan,
-  impact analysis, and snapshot diffs.
-
-- [Eye-Witness](https://github.com/MRJR0101/Eye-Witness)
-  Observability library that unifies structlog, Sentry SDK, and OpenTelemetry
-  with practical defaults.
-
-- [AI-Inline-Learning](https://github.com/MRJR0101/AI-Inline-Learning)
-  Methodology for persistent AI-agent learning via inline code comments; validated
-  against 30+ academic papers with measurable error reduction.
-
-- [BinaryGuard](https://github.com/MRJR0101/BinaryGuard)
-  PE scanner and quarantine ecosystem. 427 passed apps, 107 flagged.
-  Watch folder mode and YARA rules in progress.
+I've built 60+ production projects spanning web scraping, database management,
+file operations, security tooling, and AI agent orchestration. Everything I ship
+works offline, runs on a single machine, and does exactly what it says.
 
 ---
 
-## What I Build
+## What I'm Building
 
-| Area | Detail |
-|---|---|
-| Utility library | PyToolbelt -- 190+ utilities, 25 categories (auditors, scanners, analyzers, security, SEO, Windows system, and more) |
-| SEO automation | SEOIndexerBOT (93.5% success rate), LinkTools v3.0 (26 plugins), 3.9M domain database |
-| Web scraping | UltimateScraper -- 30+ plugins, 500K+ URLs processed, 95%+ accuracy |
-| Security | BinaryGuard PE scanner, quarantine sandbox hardening, YARA rules roadmap |
-| AI agents | AI Inline Learning, Codex Agent Loop, multi-AI orchestration (BlueWhale) |
-| Code intelligence | CodeGraphX -- deterministic scan, impact analysis, snapshot diffs |
+### Code Intelligence & Observability
+
+Two projects that give you full visibility into your code -- what it looks like
+statically, and what it does at runtime.
+
+**[CodeGraphX](https://github.com/MRJR0101/CodeGraphX)** --
+Deterministic code intelligence pipeline. Scans repositories with tree-sitter,
+extracts semantic facts (functions, calls, imports), builds a knowledge graph,
+and runs impact analysis, duplicate detection, and snapshot diffs. 14 CLI
+commands covering the full lifecycle from scan to query. CI-tested across
+Python 3.10-3.13 on Ubuntu and Windows.
+
+**[Eye-Witness](https://github.com/MRJR0101/Eye-Witness)** --
+Python observability library that unifies structured logging (structlog), error
+tracking (Sentry SDK), and distributed tracing (OpenTelemetry) into one package.
+Every log line carries trace context automatically. No DSN required -- works
+locally with zero config.
+
+### The Larger Toolkit
+
+These public repos are the tip of the iceberg. Behind the scenes I maintain
+**PyToolbelt** -- a collection of 60+ single-file Python tools organized across
+25 categories:
+
+- **Security** -- PE scanners, quarantine management, binary verification
+- **FileOps** -- inventory tools, tree builders, duplicate finders
+- **Scraping** -- multi-plugin scrapers, SEO indexers, link analysis
+- **Database** -- SQLite/PostgreSQL utilities, migration tools, schema managers
+- **Networking** -- port scanners, DNS tools, certificate checkers
+- **Archive** -- compression utilities, backup automation
+- **Meta** -- project indexers, content search, catalog generators
+
+Each tool follows strict standards: zero external dependencies, argparse CLI,
+unittest coverage, snake_case functions, and a VERIFY.md proving it works.
+
+More of these are coming to GitHub as I clean and publish them.
+
+### AI Inline Learning
+
+**[AI-Inline-Learning](https://github.com/MRJR0101/AI-Inline-Learning)** --
+A methodology for embedding guidance directly in code comments so AI agents
+build collective intelligence across sessions. Instead of losing context between
+conversations, the codebase itself becomes the knowledge transfer mechanism.
+Validated against 30+ academic papers with measurable error reduction.
+The pattern is simple, effective, and works with any LLM.
+
+### URL & SEO Tooling
+
+**[unified_url_toolkit](https://github.com/MRJR0101/unified_url_toolkit)** --
+URL extraction, normalization, and analysis pipeline with DNS, WHOIS, and TLS
+lookups. Built for large-scale SEO automation and domain intelligence work.
 
 ---
 
-## Stack
+## Tech Stack
 
 ```
-Python  |  PowerShell  |  SQLite  |  PostgreSQL  |  BeautifulSoup  |  Scrapy
-Selenium  |  pandas  |  requests  |  Flask  |  FastAPI  |  aiohttp  |  lxml
+Languages     Python, PowerShell, SQL
+Analysis      tree-sitter, Neo4j, JSONL pipelines
+Observability structlog, OpenTelemetry, Sentry SDK
+Tooling       uv, argparse, unittest, SQLite
+Platforms     Windows 11, Ubuntu (CI)
+Certs         CompTIA A+, CompTIA Network+
+Education     Cybersecurity (Alvin Community College)
 ```
+
+---
+
+## Design Philosophy
+
+- **Zero dependencies** -- if stdlib can do it, no pip install needed
+- **Single-file tools** -- one script, one job, easy to audit
+- **Local-first** -- everything works offline, no cloud required
+- **Deterministic** -- same input, same output, every time
+- **Resume-capable** -- long operations pick up where they left off
 
 ---
 
 ## Background
 
-24 years solving real problems before writing a line of production code:
-- Area Manager, Popeyes Louisiana Kitchen -- $4M+ operations, National Consumer Award x3
-- Electrical Apprentice, Spear Commercial -- solar installs for Ford and H-E-B
-- Installation Technician, A-OK Aerobic -- systems thinking, TCEQ certified
+I didn't start in software. I spent years managing restaurant operations,
+running commercial electrical installations for Fortune 500 clients, and
+building solar arrays. That operational background shows up in how I write
+code -- systematic, documented, built to survive real-world conditions.
 
-That background shapes how I code: production-grade, failure-tolerant, solves a real problem.
-
-- A.A.S. Cybersecurity -- Alvin Community College (GPA 3.0, in progress)
-- CompTIA A+ and Network+ certified
-- Houston, TX -- open to remote
+I transitioned to full-time development in 2024 and haven't looked back.
 
 ---
 
-## Project Direction
+## Current Focus
 
-- Ship practical developer tools that work well on local machines.
-- Keep implementations auditable, deterministic, and maintainable.
-- Integrate static code intelligence with runtime observability.
-
-## Notes
-
-- Some ecosystem components are private/in-progress while public repos are stabilized.
+- Publishing more PyToolbelt tools as standalone repos
+- Expanding CodeGraphX with richer graph queries
+- Building BinaryGuard -- a PE scanner and quarantine ecosystem for Windows
+- Shipping AI-Inline-Learning documentation and examples
 
 ---
 
