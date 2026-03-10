@@ -1,24 +1,24 @@
 <h1 align="center">
   MR &middot; MRJR0101
-</h1>h1>
+</h1>
 
-<h4 align="center">Security tooling. Code intelligence. Zero-dependency Python. Built to last.</h4>h4>
-
-<p align="center">
-  <a href="https://github.com/MRJR0101?tab=repositories"><img src="https://img.shields.io/badge/projects-60%2B-blue?style=flat-square"></a>a>
-    <a href="https://github.com/MRJR0101/MRJR0101#tech-stack"><img src="https://img.shields.io/badge/language-Python-yellow?style=flat-square"></a>a>
-      <a href="https://www.linkedin.com/in/michael-rawls-jr"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin"></a>a>
-        <a href="https://mrjr0101.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-green?style=flat-square"></a>a>
-          <img src="https://img.shields.io/badge/CompTIA-A%2B%20%7C%20Network%2B-red?style=flat-square">
-</p>p>
+<h4 align="center">Security tooling. Code intelligence. Zero-dependency Python. Built to last.</h4>
 
 <p align="center">
-  <a href="#what-im-building">Projects</a>a> &bull;
-    <a href="#security-tooling">Security</a>a> &bull;
-      <a href="#tech-stack">Stack</a>a> &bull;
-        <a href="#design-philosophy">Philosophy</a>a> &bull;
-          <a href="#background">Background</a>a>
-</p>p>
+  <a href="https://github.com/MRJR0101?tab=repositories"><img src="https://img.shields.io/badge/projects-60%2B-blue?style=flat-square"></a>
+  <a href="https://github.com/MRJR0101/MRJR0101#tech-stack"><img src="https://img.shields.io/badge/language-Python-yellow?style=flat-square"></a>
+  <a href="https://www.linkedin.com/in/michael-rawls-jr"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin"></a>
+  <a href="https://mrjr0101.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-green?style=flat-square"></a>
+  <img src="https://img.shields.io/badge/CompTIA-A%2B%20%7C%20Network%2B-red?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="#what-im-building">Projects</a> &bull;
+  <a href="#security-tooling">Security</a> &bull;
+  <a href="#tech-stack">Stack</a> &bull;
+  <a href="#design-philosophy">Philosophy</a> &bull;
+  <a href="#background">Background</a>
+</p>
 
 ---
 
@@ -52,7 +52,7 @@ I build security tools aligned with the same philosophy behind the [ProjectDisco
 | **Archive** | Compression utilities, backup automation |
 | **Meta** | Project indexers, content search, catalog generators |
 
-Each tool: zero external dependencies &middot; argparse CLI &middot; unittest coverage &middot; `VERIFY.md` proving it works.
+Each tool: zero external dependencies · argparse CLI · unittest coverage · `VERIFY.md` proving it works.
 
 **[BinaryGuard](https://github.com/MRJR0101)** *(in development)* -- PE scanner and quarantine ecosystem for Windows. Detects, isolates, and tracks suspicious binaries on local systems.
 
@@ -83,26 +83,26 @@ Education     Cybersecurity -- Alvin Community College
 ## Design Philosophy
 
 - **Zero dependencies** -- if stdlib can do it, no pip install needed
-- - **Single-file tools** -- one script, one job, easy to audit
-  - - **Local-first** -- everything works offline, no cloud required
-    - - **Deterministic** -- same input, same output, every time
-      - - **Resume-capable** -- long operations pick up where they left off
-       
-        - ---
+- **Single-file tools** -- one script, one job, easy to audit
+- **Local-first** -- everything works offline, no cloud required
+- **Deterministic** -- same input, same output, every time
+- **Resume-capable** -- long operations pick up where they left off
 
-        ## Background
+---
 
-        I didn't start in software. I spent years managing restaurant operations, running commercial electrical installations for Fortune 500 clients, and building solar arrays. That operational background shows up in how I write code -- systematic, documented, built to survive real-world conditions. I transitioned to full-time development in 2024 and haven't looked back.
+## Background
 
-        ---
+I didn't start in software. I spent years managing restaurant operations, running commercial electrical installations for Fortune 500 clients, and building solar arrays. That operational background shows up in how I write code -- systematic, documented, built to survive real-world conditions. I transitioned to full-time development in 2024 and haven't looked back.
 
-        ## Current Focus
+---
 
-        - Publishing more PyToolbelt tools as standalone repos
-        - - Expanding CodeGraphX with richer graph queries
-          - - Shipping BinaryGuard -- PE scanner and quarantine ecosystem for Windows
-            - - Shipping AI-Inline-Learning documentation and examples
-             
-              - ---
+## Current Focus
 
-              [Portfolio](https://mrjr0101.github.io) &middot; [LinkedIn](https://www.linkedin.com/in/michael-rawls-jr) &middot; rawlsjrm@gmail.com
+- Publishing more PyToolbelt tools as standalone repos
+- Expanding CodeGraphX with richer graph queries
+- Shipping BinaryGuard -- PE scanner and quarantine ecosystem for Windows
+- Shipping AI-Inline-Learning documentation and examples
+
+---
+
+[Portfolio](https://mrjr0101.github.io) · [LinkedIn](https://www.linkedin.com/in/michael-rawls-jr) · rawlsjrm@gmail.com
