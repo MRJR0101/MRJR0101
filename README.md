@@ -1,28 +1,35 @@
-<h1 align="center">
-  MR &middot; MRJR0101
-</h1>
+# Hey, I'm Michael Rawls Jr.
 
-<h4 align="center">Security tooling. Code intelligence. Zero-dependency Python. Built to last.</h4>
+24 years in operations -- restaurant management, commercial electrical for Fortune 500
+clients, solar installations. Taught myself Python in 2024. Built 190+ tools and 11
+production systems in under a year.
 
-<p align="center">
-  <a href="https://github.com/MRJR0101?tab=repositories"><img src="https://img.shields.io/badge/projects-60%2B-blue?style=flat-square"></a>
-  <a href="https://github.com/MRJR0101/MRJR0101#tech-stack"><img src="https://img.shields.io/badge/language-Python-yellow?style=flat-square"></a>
-  <a href="https://www.linkedin.com/in/michael-rawls-jr"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin"></a>
-  <a href="https://mrjr0101.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-green?style=flat-square"></a>
-  <img src="https://img.shields.io/badge/CompTIA-A%2B%20%7C%20Network%2B-red?style=flat-square">
-</p>
-
-<p align="center">
-  <a href="#what-im-building">Projects</a> &bull;
-  <a href="#security-tooling">Security</a> &bull;
-  <a href="#tech-stack">Stack</a> &bull;
-  <a href="#design-philosophy">Philosophy</a> &bull;
-  <a href="#background">Background</a>
-</p>
+I write local-first, zero-dependency automation -- CLI tools, security scanners,
+observability libraries, and code intelligence pipelines. Everything I ship works
+offline, runs on a single machine, and does exactly what it says.
 
 ---
 
-Python developer with 24 years of technical experience building tools that solve real problems. I write local-first, zero-dependency automation -- CLI tools, security scanners, observability libraries, and code intelligence pipelines. I've built 60+ production projects spanning web scraping, database management, file operations, security tooling, and AI agent orchestration. Everything I ship works offline, runs on a single machine, and does exactly what it says.
+## Currently Building
+
+- **[CodeGraphX](https://github.com/MRJR0101/CodeGraphX)** -- expanding graph queries, richer impact analysis
+- **BinaryGuard** -- PE scanner and quarantine ecosystem for Windows
+- **PyToolbelt** -- publishing 60+ single-file tools as standalone repos
+
+Open to roles in Python development, security tooling, or AI-assisted engineering.
+Reach me at rawlsjrm@gmail.com
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MRJR0101&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MRJR0101&layout=compact&theme=dark&hide_border=true&langs_count=6" height="165" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=MRJR0101&theme=dark&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
@@ -30,52 +37,63 @@ Python developer with 24 years of technical experience building tools that solve
 
 ### Code Intelligence & Observability
 
-**[CodeGraphX](https://github.com/MRJR0101/CodeGraphX)** -- Deterministic code intelligence pipeline. Scans repositories with tree-sitter, extracts semantic facts (functions, calls, imports), builds a knowledge graph, and runs impact analysis, duplicate detection, and snapshot diffs. 14 CLI commands covering the full lifecycle from scan to query. CI-tested across Python 3.10-3.13 on Ubuntu and Windows.
+**[CodeGraphX](https://github.com/MRJR0101/CodeGraphX)** --
+Deterministic code intelligence pipeline. Scans repositories with tree-sitter,
+extracts semantic facts (functions, calls, imports), builds a knowledge graph,
+and runs impact analysis, duplicate detection, and snapshot diffs. 14 CLI
+commands covering the full lifecycle from scan to query. CI-tested across
+Python 3.10-3.13 on Ubuntu and Windows.
 
-**[Eye-Witness](https://github.com/MRJR0101/Eye-Witness)** -- Python observability library that unifies structured logging (structlog), error tracking (Sentry SDK), and distributed tracing (OpenTelemetry) into one package. Every log line carries trace context automatically. No DSN required -- works locally with zero config.
+**[Eye-Witness](https://github.com/MRJR0101/Eye-Witness)** --
+Python observability library that unifies structured logging (structlog), error
+tracking (Sentry SDK), and distributed tracing (OpenTelemetry) into one package.
+Every log line carries trace context automatically. No DSN required -- works
+locally with zero config.
 
----
+### AI Inline Learning
 
-## Security Tooling
+**[AI-Inline-Learning](https://github.com/MRJR0101/AI-Inline-Learning)** --
+A methodology for embedding guidance directly in code comments so AI agents
+build collective intelligence across sessions. Instead of losing context between
+conversations, the codebase itself becomes the knowledge transfer mechanism.
+Validated against 30+ academic papers. Reduces repeated AI coding errors by
+60%+. Works with any LLM, zero infrastructure required.
 
-I build security tools aligned with the same philosophy behind the [ProjectDiscovery](https://projectdiscovery.io) ecosystem -- fast, focused, open, and built for real-world attack surfaces.
+### URL & SEO Tooling
 
-**PyToolbelt** *(publishing ongoing)* -- a collection of 60+ single-file Python tools across 25 categories:
+**[unified_url_toolkit](https://github.com/MRJR0101/unified_url_toolkit)** --
+URL extraction, normalization, and analysis pipeline with DNS, WHOIS, and TLS
+lookups. Built for large-scale SEO automation and domain intelligence work.
+10K+ URLs/day throughput.
 
-| Category | Tools |
-|---|---|
-| **Security** | PE scanners, quarantine management, binary verification |
-| **Networking** | Port scanners, DNS tools, certificate checkers |
-| **Scraping** | Multi-plugin scrapers, SEO indexers, link analysis |
-| **FileOps** | Inventory tools, tree builders, duplicate finders |
-| **Database** | SQLite/PostgreSQL utilities, migration tools, schema managers |
-| **Archive** | Compression utilities, backup automation |
-| **Meta** | Project indexers, content search, catalog generators |
+### The Larger Toolkit
 
-Each tool: zero external dependencies · argparse CLI · unittest coverage · `VERIFY.md` proving it works.
+These public repos are the tip of the iceberg. Behind the scenes I maintain
+**PyToolbelt** -- a collection of 60+ single-file Python tools organized across
+25 categories:
 
-**[BinaryGuard](https://github.com/MRJR0101)** *(in development)* -- PE scanner and quarantine ecosystem for Windows. Detects, isolates, and tracks suspicious binaries on local systems.
+- **Security** -- PE scanners, quarantine management, binary verification
+- **FileOps** -- inventory tools, tree builders, duplicate finders
+- **Scraping** -- multi-plugin scrapers, SEO indexers, link analysis
+- **Database** -- SQLite/PostgreSQL utilities, migration tools, schema managers
+- **Networking** -- port scanners, DNS tools, certificate checkers
+- **Archive** -- compression utilities, backup automation
+- **Meta** -- project indexers, content search, catalog generators
 
-**[unified_url_toolkit](https://github.com/MRJR0101/unified_url_toolkit)** -- URL extraction, normalization, and analysis pipeline with DNS, WHOIS, and TLS lookups. Built for large-scale domain intelligence and recon workflows.
-
----
-
-## AI & Learning Infrastructure
-
-**[AI-Inline-Learning](https://github.com/MRJR0101/AI-Inline-Learning)** -- A methodology for embedding guidance directly in code comments so AI agents build collective intelligence across sessions. Instead of losing context between conversations, the codebase itself becomes the knowledge transfer mechanism. Validated against 30+ academic papers with measurable error reduction.
+More of these are coming to GitHub as I clean and publish them.
 
 ---
 
 ## Tech Stack
 
 ```
-Languages     Python · PowerShell · SQL
-Analysis      tree-sitter · Neo4j · JSONL pipelines
-Observability structlog · OpenTelemetry · Sentry SDK
-Tooling       uv · argparse · unittest · SQLite
-Platforms     Windows 11 · Ubuntu (CI)
-Certs         CompTIA A+ · CompTIA Network+
-Education     Cybersecurity -- Alvin Community College
+Languages     Python, PowerShell, SQL
+Analysis      tree-sitter, Neo4j, JSONL pipelines
+Observability structlog, OpenTelemetry, Sentry SDK
+Tooling       uv, argparse, unittest, SQLite
+Platforms     Windows 11, Ubuntu (CI)
+Certs         CompTIA A+, CompTIA Network+
+Education     Cybersecurity (Alvin Community College)
 ```
 
 ---
@@ -90,19 +108,4 @@ Education     Cybersecurity -- Alvin Community College
 
 ---
 
-## Background
-
-I didn't start in software. I spent years managing restaurant operations, running commercial electrical installations for Fortune 500 clients, and building solar arrays. That operational background shows up in how I write code -- systematic, documented, built to survive real-world conditions. I transitioned to full-time development in 2024 and haven't looked back.
-
----
-
-## Current Focus
-
-- Publishing more PyToolbelt tools as standalone repos
-- Expanding CodeGraphX with richer graph queries
-- Shipping BinaryGuard -- PE scanner and quarantine ecosystem for Windows
-- Shipping AI-Inline-Learning documentation and examples
-
----
-
-[Portfolio](https://mrjr0101.github.io) · [LinkedIn](https://www.linkedin.com/in/michael-rawls-jr) · rawlsjrm@gmail.com
+[Portfolio](https://mrjr0101.github.io) | [LinkedIn](https://www.linkedin.com/in/michael-rawls-jr) | rawlsjrm@gmail.com
