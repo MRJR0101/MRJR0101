@@ -3,31 +3,39 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 .venv/
 venv/
-
-# Node
-node_modules/
 
 # Build/output
 build/
 dist/
+*.egg-info/
 *.log
 
 # IDE
 .vscode/
 .idea/
 
+# Environment
+.env
+.env.*
+
 # Internal working docs
 docs/_incoming_root/
 
 # Local QA/build artifacts (managed)
-*.egg-info/
 .pytest_tmp/
 .pytest_tmp_qwf/
-.ruff_cache/
 
 # Internal ops/quality workflow files
 MISSINGMORE
 MISSINGMORE.txt
 MISSINGMORE_FILE_LEDGER.tsv
+
+# Local structure dumps / migration helpers
+_STRUCTURE.txt
+_incoming_ops_recovery_*/
+
